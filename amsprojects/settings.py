@@ -37,6 +37,23 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
+    'custom.apps.CustomConfig',
+    'distribuition.apps.DistribuitionConfig',
+    'notification.apps.NotificationConfig',
+    'main.apps.MainConfig',
+    'report.apps.ReportConfig',
+    'users.apps.UsersConfig',
+    'maintenance.apps.MaintenanceConfig',
+    'assets.apps.AssetsConfig',
+    'rir.apps.RirConfig',
+    'django_cleanup',
+    'import_export',
+    "crispy_forms",
+    "crispy_bootstrap4",
+    'django_summernote',
+    'rest_framework',
+    'widget_tweaks'
 ]
 
 MIDDLEWARE = [
@@ -48,6 +65,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'amsprojects.middleware.NoBackAfterLogout',
 ]
 
 ROOT_URLCONF = 'amsprojects.urls'
