@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+Env/
+env/
+venv/
+
+# Git
+.git/
+.gitignore
+
+# Database
+db.sqlite3
+
+# Media & static (opsional)
+media/
+staticfiles/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Environment variables
+.env
+
+# Docker files (opsional)
+docker-compose.yml
+Dockerfile
